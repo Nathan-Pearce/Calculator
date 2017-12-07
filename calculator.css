@@ -10,3 +10,13 @@
 	top: 80px;
 	left: 40%;
 }
+
+/* Display */
+.display {
+	background-color: #bfc4ce;
+	height: 40px;
+	width: 220px;
+	position: relative;
+	top: 20px;
+	left: 15px;
+}
