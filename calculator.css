@@ -20,3 +20,14 @@
 	top: 20px;
 	left: 15px;
 }
+.display input {
+	background-color: #bccd95;
+	height: 30px;
+	width: 210px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	color: black;
+	font-size: 21px;
+	text-align: right;
+}
