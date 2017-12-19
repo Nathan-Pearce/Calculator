@@ -2,8 +2,8 @@
 /* CSS Document */
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
-	height: 300px;
+	background-color: #302612;
+	height: 475px;
 	width: 250px;
 	border-radius: 10px;
 	position: relative;
@@ -21,7 +21,7 @@
 	left: 15px;
 }
 .display input {
-	background-color: #bccd95;
+	background-color: white;
 	height: 30px;
 	width: 210px;
 	position: relative;
@@ -38,7 +38,7 @@
 	top: 15px;
 }
 .button {
-	height: 30px;
+	height: 50px;
 	width: 40px;
 	border-radius: 8px;
 	border: none;
@@ -47,22 +47,52 @@
 	border-top: 2px solid transparent;
 }
 .button.function {
-	background-color: #c64f81;
+	background-color: #70613F;
 	color: white;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator {
-	background-color: #4d5966;
+	background-color: black;
 	color: white;
 	border-bottom: black 2px solid;
-	border-top: 2px #6f6f6f solid;
+	border-top: black 2px solid;
+}
+.button.equals {
+	background-color: orange;
+	color: white;
+	border-bottom: orange 2px solid;
+	border-top: orange 2px solid;
+}
+.flower {
+	background-image: url("flower.png");
+	background-color: #302612;
+	background-size:cover;
+	background-position:center;
+}
+.sun {
+	background-image: url("sun.png");
+	background-color: #302612;
+	background-size:cover;
+	background-position:center;
+}
+.leaf {
+	background-image: url("leaf.png");
+	background-color: #302612;
+	background-size:cover;
+	background-position:center;
+}
+.snowflake {
+	background-image: url("snowflake.png");
+	background-color: #302612;
+	background-size:cover;
+	background-position:center;
 }
 .button.number {
-	background-color: #7091ab;
+	background-color: grey;
 	color: white;
-	border-bottom: black 2px solid;
-	border-top: 2px #6f6f6f solid;
+	border-bottom: grey 2px solid;
+	border-top: grey 2px solid;
 }
 
 /* Simulate Button Press */
